@@ -10,20 +10,29 @@ html {
     font-size: 18px;
 }
 
+html, body {
+       height: 100%;
+    position: relative; 
+}
+
 body {
     background-color: #EEE;
     margin: 0;
     padding: 0;
 }
 
+.bigwrapper {
+    min-height: 100vh;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px;
+}
+
 header {
     background-color: #F16745;
     height: 5rem;
-    font-family: 'Bangers', cursive;
     font-size: 4rem;
-    letter-spacing: 0.1rem;
-    line-height: 5rem;
-    padding: 0 0 0 1rem
 }
 
 nav > ul {
@@ -55,16 +64,6 @@ nav:after {
     display: table;
     clear: both; /* CLEARFIX */
 }
-
-
-    .bigNav {
-        display:inline;
-    }
-    
-    .smallNav {
-        display: none;
-    }
-
 
 /* FÄRGER */
 
@@ -135,30 +134,4 @@ footer {
     padding: 5px;
     position: absolute;
     width: 100%;
-}
-
-@media screen and (max-width:600px) {    
-    header {
-        font-size: 2rem;
-        height: 3rem;
-        line-height: 3rem;
-        letter-spacing: 0.02rem;
-        padding: 0;
-        text-align: center;
-    }
-    
-    .bigNav {
-        display:none;
-    }
-    
-    .smallNav {
-        display: block;
-        text-align: center
-    }
-    
-    [class*='col-'] {
-    float: left;
-    position: relative;
-    width: 100%;    
-}
 }

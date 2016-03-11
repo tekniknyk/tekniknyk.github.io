@@ -7,17 +7,18 @@
 }
 
 html {
-    font-size: 19px;
-    height: 100%;
-    position: relative;
+    font-size: 18px;
+}
+
+html, body {
+       height: 100%;
+    position: relative; 
 }
 
 body {
     background-color: #EEE;
     margin: 0;
     padding: 0;
-    height: 100%;
-    position: relative;
 }
 
 .bigwrapper {

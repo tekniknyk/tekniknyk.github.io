@@ -10,11 +10,25 @@ html {
     font-size: 18px;
 }
 
+html, body {
+       height: 100%;
+    position: relative; 
+}
+
 body {
     background-color: #EEE;
     margin: 0;
     padding: 0;
 }
+
+.bigwrapper {
+    min-height: 100vh;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px;
+}
+
 
 header {
     background-color: #F16745;
@@ -157,8 +171,8 @@ footer {
     }
     
     [class*='col-'] {
-    float: left;
-    position: relative;
-    width: 100%;    
-}
+        float: left;
+        position: relative;
+        width: 100%;    
+    }
 }

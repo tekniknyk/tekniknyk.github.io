@@ -8,12 +8,24 @@
 
 html {
     font-size: 18px;
+    height: 100%;
+    position: relative;
 }
 
 body {
     background-color: #EEE;
     margin: 0;
     padding: 0;
+    height: 100%;
+    position: relative;
+}
+
+.bigwrapper {
+    min-height: 100vh;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px;
 }
 
 header {

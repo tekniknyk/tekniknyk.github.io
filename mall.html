@@ -14,7 +14,7 @@
         Webbutveckling 1
     </header>
 
-    <nav>
+    <nav id="nav">
         <ul>
             <li>
                 <a href="#" class="bgOne">    
@@ -111,5 +111,12 @@
         Sidfot
     </footer>
 </div><!-- /.bigwrapper -->
+<script src="js/jquery-2.2.1.min.js"></script>
+<script src="js/jquery.sticky.js"></script>
+<script>
+    $(window).load(function(){
+      $("#nav").sticky({ topSpacing: 0 });
+    });
+  </script>
 </body>
 </html>

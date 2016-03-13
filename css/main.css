@@ -152,13 +152,6 @@ footer {
 }
 
 @media screen and (max-width:600px) {    
-    body {
-        background-color: #b0b;
-    }
-}
-
-/*
-
   header {
         font-size: 2rem;
         height: 3rem;
@@ -166,7 +159,12 @@ footer {
         letter-spacing: 0.02rem;
         padding: 0;
         text-align: center;
-    }  
+    }
+}
+
+/*
+
+
 
 */
 

@@ -160,6 +160,12 @@ footer {
         padding: 0;
         text-align: center;
     }
+    
+    [class*='col-'] {
+        float: left;
+        position: relative;
+        width: 100%;    
+    }
 }
 
 /*
@@ -168,11 +174,7 @@ footer {
 
 */
 
-/*  [class*='col-'] {
-        float: left;
-        position: relative;
-        width: 100%;    
-    }*/
+/*  */
 
  /*.bigNav {
         display:none;

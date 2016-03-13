@@ -40,6 +40,11 @@ header {
     padding: 0 0 0 1rem
 }
 
+nav {
+    width: 100%;
+    z-index: 2;
+}
+
 nav > ul {
     list-style-type: none;
     margin: 0;

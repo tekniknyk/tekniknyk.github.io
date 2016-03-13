@@ -33,7 +33,7 @@ body {
 header {
     background-color: #F16745;
     height: 5rem;
-    font-family: 'Bangers', cursive;
+    /*font-family: 'Bangers', cursive;*/
     font-size: 4rem;
     letter-spacing: 0.1rem;
     line-height: 5rem;

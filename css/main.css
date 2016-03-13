@@ -152,27 +152,35 @@ footer {
 }
 
 @media screen and (max-width:600px) {    
-    header {
+    body {
+        background-color: #b0b;
+    }
+}
+
+/*
+
+  header {
         font-size: 2rem;
         height: 3rem;
         line-height: 3rem;
         letter-spacing: 0.02rem;
         padding: 0;
         text-align: center;
-    }
-    
-    .bigNav {
+    }  
+
+*/
+
+/*  [class*='col-'] {
+        float: left;
+        position: relative;
+        width: 100%;    
+    }*/
+
+ /*.bigNav {
         display:none;
     }
     
     .smallNav {
         display: block;
         text-align: center
-    }
-    
-    [class*='col-'] {
-        float: left;
-        position: relative;
-        width: 100%;    
-    }
-}
+    }*/
